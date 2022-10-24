@@ -10,6 +10,8 @@
 
 ## [5. Списки](/pages/lists.md)
 
+## [Кортежи](/pages/tuples.md)
+
 ## [6. Функции и рекурсия](/pages/functions.md)
 
 ## [7. Двумерные массивы](/pages/twodim_arrays.md)
