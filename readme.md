@@ -10,12 +10,13 @@
 
 ## [* Списки](/pages/lists.md)
 
-## [* Кортежи](/pages/tuples.md)
-
-## [* Функции и рекурсия](/pages/functions.md)
-
 ## [* Двумерные массивы](/pages/twodim_arrays.md)
+
+## [* Кортежи](/pages/tuples.md)
 
 ## [* Множества](/pages/sets.md)
 
 ## [* Словари](/pages/dicts.md)
+
+## [* Функции и рекурсия](/pages/functions.md)
+
