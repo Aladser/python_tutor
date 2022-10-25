@@ -10,8 +10,6 @@
 
 ## [* Списки](/pages/lists.md)
 
-## [* Двумерные массивы](/pages/twodim_arrays.md)
-
 ## [* Кортежи](/pages/tuples.md)
 
 ## [* Множества](/pages/sets.md)
