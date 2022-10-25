@@ -68,3 +68,13 @@
 `arr.index(x)`	индекс первого вхождения элемента x в список, при его отсутствии генерирует исключение ValueError
 
 `arr.count(x)`	количество вхождений элемента x в список
+
+## Двумерные массивы. Создание вложенных списков
+
+`arr = [[0] * m for i in range(n)]`
+
+
+`arr = [[int(j) for j in input().split()] for i in range(n)]`
+
+
+`arr = [[0 for j in range(m)] for i in range(n)]`
