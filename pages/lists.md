@@ -127,7 +127,7 @@
 
 У list.sort() и sorted() есть параметр `reverse`, принимающий boolean-значение. Он нужен для обозначения сортировки по убыванию. Отсортируем учеников по убыванию возраста:
 
-`sorted(student_tuples, key=itemgetter(2), reverse=True)``
+`sorted(student_tuples, key=itemgetter(2), reverse=True)`
 
 > [('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]`
 
