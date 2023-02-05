@@ -153,45 +153,48 @@ A > B эквивалентно A >= B and A != B
 
 Приведенный ниже код:
 
-sentence = 'The cat in the hat had two sidekicks, thing one and thing two.'
+`sentence = 'The cat in the hat had two sidekicks, thing one and thing two.`
 
-words = sentence.lower().replace('.', '').replace(',', '').split()
+`words = sentence.lower().replace('.', '').replace(',', '').split()`
 
-vowels = ['a', 'e', 'i', 'o', 'u']
+`vowels = ['a', 'e', 'i', 'o', 'u']`
 
-consonants = {frozenset({letter for letter in word if letter not in vowels}) for word in words}
+`consonants = {frozenset({letter for letter in word if letter not in vowels}) for word in words}`
 
-print(*consonants, sep='\n')
+`print(*consonants, sep='\n')`
+
 выводит (порядок элементов может отличаться):
 
-frozenset({'d', 'h'})
-frozenset({'h', 't'})
-frozenset({'n', 'h', 'g', 't'})
-frozenset({'n'})
-frozenset({'c', 't'})
-frozenset({'n', 'd'})
-frozenset({'w', 't'})
-frozenset({'s', 'c', 'k', 'd'})
+`frozenset({'d', 'h'})`
+`frozenset({'h', 't'})`
+`frozenset({'n', 'h', 'g', 't'})`
+`frozenset({'n'})`
+`frozenset({'c', 't'})`
+`frozenset({'n', 'd'})`
+`frozenset({'w', 't'})`
+`frozenset({'s', 'c', 'k', 'd'})`
 
 * *Примечание 2*. Методы изменяющие множество отсутствуют у замороженных множеств:
 
-add()
-remove()
-discard()
-pop()
-clear()
-update()
-intersection_update()
-difference_update()
-symmetric_difference_update()
+`add()`
+`remove()`
+`discard()`
+`pop()`
+`clear()`
+`update()`
+`intersection_update()`
+`difference_update()`
+`symmetric_difference_update()`
+
 Примечание 3. Мы можем сравнивать простые (тип set) и замороженные множества (тип frozenset).
 
 Приведенный ниже код:
 
-myset1 = set('qwerty')
-myset2 = frozenset('qwerty')
+`myset1 = set('qwerty')`
+`myset2 = frozenset('qwerty')`
 
-print(myset1 == myset2)
+`print(myset1 == myset2)`
+
 выведет:
 
-True
+`True`
