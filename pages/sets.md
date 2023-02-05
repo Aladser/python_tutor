@@ -166,24 +166,39 @@ A > B эквивалентно A >= B and A != B
 выводит (порядок элементов может отличаться):
 
 `frozenset({'d', 'h'})`
+
 `frozenset({'h', 't'})`
+
 `frozenset({'n', 'h', 'g', 't'})`
+
 `frozenset({'n'})`
+
 `frozenset({'c', 't'})`
+
 `frozenset({'n', 'd'})`
+
 `frozenset({'w', 't'})`
+
 `frozenset({'s', 'c', 'k', 'd'})`
 
 * *Примечание 2*. Методы изменяющие множество отсутствуют у замороженных множеств:
 
 `add()`
+
 `remove()`
+
 `discard()`
+
 `pop()`
+
 `clear()`
+
 `update()`
+
 `intersection_update()`
+
 `difference_update()`
+
 `symmetric_difference_update()`
 
 Примечание 3. Мы можем сравнивать простые (тип set) и замороженные множества (тип frozenset).
@@ -191,6 +206,7 @@ A > B эквивалентно A >= B and A != B
 Приведенный ниже код:
 
 `myset1 = set('qwerty')`
+
 `myset2 = frozenset('qwerty')`
 
 `print(myset1 == myset2)`
