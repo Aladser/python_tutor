@@ -8,7 +8,7 @@
 
 ## [* Циклы](/pages/cycles.md)
 
-## [* Библиотека math](/pages/calc.md)
+## [* Библиотеки](/pages/libs.md)
 
 ## [* Списки](/pages/lists.md)
 
