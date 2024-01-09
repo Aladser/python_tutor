@@ -10,6 +10,8 @@
 
 ## [* Библиотека math](/pages/calc.md)
 
+## [* Дата и время ](/pages/time.md)
+
 ## [* Списки](/pages/lists.md)
 
 ## [* Кортежи](/pages/tuples.md)
