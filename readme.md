@@ -1,5 +1,7 @@
 # Шпаргалка Python
 
+## [* Правила хорошего тона (PEP 8)](/pages/pep8.md)
+
 ## [* Работа со строками 1](/pages/lines1.md)
 
 ## [* Работа со строками 2](/pages/lines2.md)
@@ -8,7 +10,7 @@
 
 ## [* Циклы](/pages/cycles.md)
 
-## [* Библиотека math](/pages/calc.md)
+## [* Библиотеки](/pages/libs.md)
 
 ## [* Дата и время ](/pages/time.md)
 

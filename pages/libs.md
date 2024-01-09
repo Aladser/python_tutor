@@ -1,7 +1,34 @@
+# &emsp;<span style="color:green"> Библиотеки </span>
 
-# &emsp;<span style="color:green"> Библиотека math </span>
+## &emsp;<span style="color:green"> Использование алиасов </span>
+Предположим, вы решили импортировать функцию choice, но в вашей программе уже есть такая функция или переменная. Ничего страшного, вы можете переименовать то, что импортируете.
+```
+from random import choice as random_choice, shuffle as random_shuffle
 
-## &emsp;<span style="color:green"> Округление </span>
+...
+
+r_1 = random_choice([1,2,3])
+r_2 = random_shuffle([1,2,3])
+```
+
+## &emsp;<span style="color:green"> Библиотека random </span>
+
+### &emsp;<span style="color:green"> randint </span>
+Для получения случайного целого числа в Python используется функция ``random.randint()``.
+
+### &emsp;<span style="color:green"> shuffle </span>
+Метод ``random.shuffle(список)`` используется для перемешивания данных списка или другой изменяемой последовательности.
+
+### &emsp;<span style="color:green"> sample </span>
+Метод ``random.sample(последовательность, сколько_выбрать)`` используется, когда требуется выбрать несколько элементов из заданной последовательности.
+
+### &emsp;<span style="color:green"> sample </span>
+Метод ``random.choice(список)`` используется, когда вам нужно получить один случайный элемент из последовательности
+
+
+## &emsp;<span style="color:green"> Библиотека math </span>
+
+### &emsp;<span style="color:green"> Округление </span>
 
 <span style="color:ForestGreen"> **int(x)** </span> округляет число в сторону нуля. Это стандартная функция, для ее использования не нужно подключать модуль math.
 
@@ -15,14 +42,14 @@
 
 <span style="color:ForestGreen">**abs(x)**</span> 	модуль (абсолютная величина). Это — стандартная функция.
 
-## &emsp;<span style="color:green"> Корни, логарифмы
+### &emsp;<span style="color:green"> Корни, логарифмы
 
 <span style="color:ForestGreen">**sqrt(x)**</span> 	квадратный корень. Использование: sqrt(x)
 
 <span style="color:ForestGreen">**log(x)**</span> 	натуральный логарифм. При вызове в виде log(x, b) возвращает логарифм по основанию b.
 e	основание натуральных логарифмов e = 2,71828...
 
-## &emsp;<span style="color:green"> Тригонометрия
+### &emsp;<span style="color:green"> Тригонометрия
 
 <span style="color:ForestGreen">**sin(x)**</span> 	синус угла, задаваемого в радианах
 
