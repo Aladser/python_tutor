@@ -1,6 +1,6 @@
 # Шпаргалка Python
 
-## [* Работа со строками](/pages/lines1.md)
+## [* Работа со строками](/pages/lines.md)
 
 ## [* Условия](/pages/condition.md)
 
