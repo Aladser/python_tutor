@@ -16,7 +16,7 @@
 
 ## [* Словари](/pages/dicts.md)
 
-## [* Мутабельность, передача по ссылке и значению, объекты в Python](/pages/objects.md)
+## [* Мутабельность и объекты в Python](/pages/objects.md)
 
 ## [* Функции](/pages/functions.md)
 
