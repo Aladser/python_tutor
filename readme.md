@@ -18,7 +18,7 @@
 
 ## [* Мутабельность, передача по ссылке и значению, объекты в Python](/pages/objects.md)
 
-## [* Функции и рекурсия](/pages/functions.md)
+## [* Функции](/pages/functions.md)
 
 ## [* Правила хорошего тона (PEP 8)](/pages/pep8.md)
 
