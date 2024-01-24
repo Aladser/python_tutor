@@ -28,4 +28,4 @@
 
 ## [* Классы ](/pages/classes.md)
 
-## [* Модули ](/pages/modules.md)
+## [* Пакеты и модули ](/pages/modules.md)
