@@ -26,4 +26,6 @@
 
 ## [* Файлы ](/pages/files.md)
 
+## [* Классы ](/pages/classes.md)
+
 ## [* Модули ](/pages/modules.md)

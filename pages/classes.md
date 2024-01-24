@@ -15,3 +15,35 @@ __repr__() – возвращающий полное представление 
 При создании собственных классов желательно прописать оба магических метода, как минимум – 
 __repr__(), который незаменим при отладке.
 
+
+## Иерархическое наследование
+
+```
+Class Person():
+    pass
+
+Class Student(Person):
+   pass
+
+Class CSStudent(Student):
+   pass
+```
+
+## Множественное наследование
+```
+class Fish():
+ def swim(self):
+   print("я плаваю")
+
+class Girl():
+ def sing(self):
+   print("я пою")
+
+
+class Mermaid(Fish, Girl):
+  pass
+
+ariel = Mermaid()
+ariel.swim()
+ariel.sing()
+```
