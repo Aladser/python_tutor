@@ -22,7 +22,7 @@ r_2 = random_shuffle([1,2,3])
 ### &emsp;<span style="color:green"> sample </span>
 Метод ``random.sample(последовательность, сколько_выбрать)`` используется, когда требуется выбрать несколько элементов из заданной последовательности.
 
-### &emsp;<span style="color:green"> sample </span>
+### &emsp;<span style="color:green"> choice </span>
 Метод ``random.choice(список)`` используется, когда вам нужно получить один случайный элемент из последовательности
 
 
